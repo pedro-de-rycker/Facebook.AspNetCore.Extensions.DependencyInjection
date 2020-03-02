@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Pedro De Rycker</Authors>
+    <Company>Pedro De Rycker</Company>
   </PropertyGroup>
 
   <ItemGroup>
