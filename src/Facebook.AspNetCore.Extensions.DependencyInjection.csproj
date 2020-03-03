@@ -15,6 +15,10 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\Projects\Facebook\Facebook.AspNetCore.Extensions.DependencyInjection\src\Facebook.AspNetCore.Extensions.DependencyInjection.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Facebook.NetCore.HttpClient" Version="0.1.0" />
     <PackageReference Include="Facebook.NetCore.Service" Version="1.0.0" />
