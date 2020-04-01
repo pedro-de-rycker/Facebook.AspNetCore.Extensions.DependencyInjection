@@ -8,7 +8,6 @@
     <PackageProjectUrl>https://www.github.com/pedro-de-rycker/Facebook.AspNetCore.Extensions.DependencyInjection</PackageProjectUrl>
     <RepositoryUrl>https://www.github.com/pedro-de-rycker/Facebook.AspNetCore.Extensions.DependencyInjection</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
-    <PackageIcon>nuget-package-logo.png</PackageIcon>
     <PackageIconUrl />
     <Description>This package allow to add dependencies services injections on an asp.net core project to use the Facebook Graph API.</Description>
     <Version>0.1.2</Version>
@@ -26,10 +25,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\Assets\nuget-package-logo.png">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>
   </ItemGroup>
 
 </Project>
