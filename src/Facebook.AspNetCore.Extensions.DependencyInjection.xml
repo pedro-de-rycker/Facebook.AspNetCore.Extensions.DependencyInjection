@@ -4,5 +4,37 @@
         <name>Facebook.AspNetCore.Extensions.DependencyInjection</name>
     </assembly>
     <members>
+        <member name="T:Facebook.AspNetCore.Client.ExtensionMethods.IServiceCollectionExtensionMethod">
+            <summary>
+            The IServiceCollection extension methods static class.
+            </summary>
+            
+        </member>
+        <member name="M:Facebook.AspNetCore.Client.ExtensionMethods.IServiceCollectionExtensionMethod.AddFacebookServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Facebook.AspNetCore.Client.Models.FacebookServicesOptions)">
+            <summary>
+            Add the Facebook graph Api services.
+            </summary>
+            <param name="services">The IServiceCollection source.</param>
+            <param name="options">The options passed.</param>
+            <returns>Returns the IServiceCollection.</returns>
+            
+        </member>
+        <member name="T:Facebook.AspNetCore.Client.Models.FacebookServicesOptions">
+            <summary>
+            The options for the Facebook services.
+            </summary>
+        </member>
+        <member name="P:Facebook.AspNetCore.Client.Models.FacebookServicesOptions.ClientId">
+            <summary>
+            Your application client id.
+            </summary>
+            
+        </member>
+        <member name="P:Facebook.AspNetCore.Client.Models.FacebookServicesOptions.ClientSecret">
+            <summary>
+            Your application client secret.
+            </summary>
+            
+        </member>
     </members>
 </doc>
