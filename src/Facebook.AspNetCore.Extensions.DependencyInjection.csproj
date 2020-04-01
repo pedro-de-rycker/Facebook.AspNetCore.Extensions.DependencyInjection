@@ -16,7 +16,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>D:\Projects\Facebook\Facebook.AspNetCore.Extensions.DependencyInjection\src\Facebook.AspNetCore.Extensions.DependencyInjection.xml</DocumentationFile>
+    <DocumentationFile>src/Facebook.AspNetCore.Extensions.DependencyInjection.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
