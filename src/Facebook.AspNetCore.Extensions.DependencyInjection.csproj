@@ -10,8 +10,9 @@
     <RepositoryType>Git</RepositoryType>
     <PackageIcon>logo.png</PackageIcon>
     <Description>This package allow to add dependencies services injections on an asp.net core project to use the Facebook Graph API.</Description>
-    <Version>0.1.4</Version>
+    <Version>0.1.0</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageTags>facebook api client</PackageTags>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

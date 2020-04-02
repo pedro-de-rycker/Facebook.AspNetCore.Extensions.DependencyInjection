@@ -1,10 +1,29 @@
-# Facebook.AspNetCore.Extensions.DependencyInjection package
- 
-## IMPORTANT !
+# Facebook.AspNetCore.Extensions.DependencyInjection nuget package
 
-This package requires nuget packages not available on nuget.org for the moment.
+Add client services for the Facebook graph API to your ASP.NET Core application.
 
-- [Facebook.NetCore.HttpClient](https://github.com/pedro-de-rycker/Facebook.NetCore.HttpClient)
+This package is part of a three package group :
+- [Facebook.AspNetCore.Extensions.DependencyInjection](https://github.com/pedro-de-rycker/Facebook.AspNetCore.Extensions.DependencyInjection)
 - [Facebook.NetCore.Service](https://github.com/pedro-de-rycker/Facebook.NetCore.Service)
+- [Facebook.NetCore.HttpClient](https://github.com/pedro-de-rycker/Facebook.NetCore.HttpClient)
+ 
+## Get started
 
-``Recommanded : `` Setup a local repository and upload the nuget package generated on build available in the project sub-folder : `bin/[build-configuration]`
+Download the following package from [nuget.org](https://www.nuget.org/) :
+
+```
+Facebook.AspNetCore.Extensions.DependencyInjection
+```
+
+Add the services in the  `Startup.cs`
+``` csharp
+services.AddFacebookServices(new FacebookServicesOptions
+{
+    ClientId = "{your-client-id}",
+    ClientSecret = "{your-client-secret}"
+});
+```
+
+## Available services
+
+The different services are listed in the `Facebook.NetCore.Service` package [repository README.md](https://github.com/pedro-de-rycker/Facebook.NetCore.Service).
