@@ -33,7 +33,7 @@ namespace Facebook.AspNetCore.Client.ExtensionMethods
 
             services.AddSingleton<FacebookHttpClient>(factory =>
             {
-                FacebookHttpClient client = new FacebookHttpClient(version: "v6.0");
+                FacebookHttpClient client = new FacebookHttpClient(version: "v7.0");
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
                 return client;
